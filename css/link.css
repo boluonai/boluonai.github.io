@@ -10,7 +10,7 @@ body {
  
 /* 标题 */
 .header {
-    background: url(p.png);
+    background: url(img/p.png);
     background-size:100% 100%;
     background-repeat:no-repeat;
     padding: 290px;

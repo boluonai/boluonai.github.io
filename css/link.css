@@ -10,12 +10,12 @@ body {
  
 /* 标题 */
 .header {
-    padding: 80px;
+    background: url(img/3.png);
+    background-size: 1600px 730px;
+    padding: 290px;
     text-align: center;
-    background: #1abc9c;
     color: white;
 }
- 
 /* 标题字体加大 */
 .header h1 {
     font-size: 40px;

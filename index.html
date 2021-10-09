@@ -15,16 +15,6 @@
     ...
 </head>
 <body>
-     ...
-    <div id="vcomments"></div>
-    <script>
-        new Valine({
-            av: AV,
-            el: '#vcomments',
-            appId: 'tzQRucGVo3GC8Ps8HhAUhp3L-gzGzoHsz',
-            appKey: 'f6OE2TM8neLWLebzAgeM7oAc'
-        })
-    </script>
     <div class="header" style="width:100%">
         <h1>啵楞你@</h1>
         <p>--未来不可期</p>
@@ -63,8 +53,15 @@
         </div>
       </div>
        
-      <div class="footer">
-        <h2>底部内容</h2>
-      </div>
+      ...
+      <div class="footer" id="vcomments"></div>
+      <script>
+          new Valine({
+              av: AV,
+              el: '#vcomments',
+              appId: 'tzQRucGVo3GC8Ps8HhAUhp3L-gzGzoHsz',
+              appKey: 'f6OE2TM8neLWLebzAgeM7oAc'
+          })
+      </script>
 </body>
 </html>

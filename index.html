@@ -7,8 +7,24 @@
     <link rel="stylesheet" href="css/link.css">
     <link rel="icon" href="img/logo.ico" type="images/x-ico" />
     <title>bolengni@</title>
+    ...
+    <!--LeanCloud 操作库-->
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <!--Valine 的核心代码库-->
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    ...
 </head>
 <body>
+     ...
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            av: AV,
+            el: '#vcomments',
+            appId: 'tzQRucGVo3GC8Ps8HhAUhp3L-gzGzoHsz',
+            appKey: 'f6OE2TM8neLWLebzAgeM7oAc'
+        })
+    </script>
     <div class="header" style="width:100%">
         <h1>啵楞你@</h1>
         <p>--未来不可期</p>
